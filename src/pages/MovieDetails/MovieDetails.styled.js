@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const ButtonBack = styled.button`
-  padding: 10px;
-  min-width: 100px
-  border-color: inherit;
-  cursor: pointer;
   margin-bottom: 15px;
-  font-weight: 700;
-  `;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+`;
 
 export const Card = styled.div`
   display: flex;
