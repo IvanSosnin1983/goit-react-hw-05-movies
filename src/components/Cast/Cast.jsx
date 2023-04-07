@@ -27,6 +27,7 @@ const Cast = () => {
             <p>Character: {character}</p>
           </li>
         ))}
+      {casts.length === 0 && <p>No information about the cast</p>}
     </CastList>
   );
 };

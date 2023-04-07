@@ -26,6 +26,7 @@ const Reviews = () => {
             );
           })}
       </ul>
+      {review.length === 0 && <p>There are no reviews for this movie.</p>}
     </>
   );
 };
